@@ -1,18 +1,22 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+
 import './App.css'
-import Navbar from "./components/Navbar.jsx";
-import Footer from "./components/Footer.jsx";
+import React from "react";
+import Navbar from "./components/Navbar/Navbar.jsx";
+import Hero from "./components/Hero/Hero.jsx";
+import Skills from "./components/Skills/Skills.jsx";
+
 
 
 function App() {
 
 
   return (
-    <div className = 'p-[20px]  ' >
+    <div  >
       <Navbar/>
-      <Footer/>
+        <div className= "container" >
+            <Hero/>
+            <Skills/>
+        </div>
     </div>
   )
 }
