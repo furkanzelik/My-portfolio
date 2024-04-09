@@ -2,7 +2,6 @@ import React, {useState} from "react";
 import './Skills.css'
 import {SKILLS} from "../../utils/data.js";
 import SkillCard from "./SkillCard/SkillCard.jsx";
-import {data} from "autoprefixer";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard.jsx";
 const Skills = () => {
 

@@ -21,6 +21,17 @@ export const SKILLS = [
         ],
     },
     {
+        title: "AI Development",
+        icon: "AI icon",
+        skills: [
+            {skill: "LLM", percentage: "70%"},
+            {skill: "Prompt Engineering", percentage: "70%"},
+            {skill: "KNN", percentage: "60%"},
+            {skill: "NN", percentage: "40%"},
+        ],
+    },
+
+    {
         title: "Games & development",
         icon: "Game icon",
         skills: [
@@ -47,10 +58,44 @@ export const SKILLS = [
         title: "Soft Skills",
         icon: "skills icon",
         skills: [
-            {skill: "Problem solving", percentage: "90%"},
+            {skill: "Problem solving", percentage: "80%"},
             {skill: "Time management", percentage: "70%"},
-            {skill: "Collaborate", percentage: "80%"},
+            {skill: "Collaborate", percentage: "90%"},
             {skill: "Critical thinking", percentage: "60%"},
         ],
     },
-]
+];
+
+export const PROJECTS = [
+
+
+        {
+        title: "Project1",
+        date: "school year",
+        description: ["lorem ipsulum"],
+        },
+
+            {
+        title: "Project2",
+        date: "school year",
+        description: ["lorem ipsulum"],
+            },
+
+    {
+        title: "Project3",
+        date: "school year",
+        description: ["lorem ipsulum"],
+    },
+
+    {
+        title: "Project4",
+        date: "school year",
+        description: ["lorem ipsulum"],
+    },
+
+    {
+        title: "Project5",
+        date: "school year",
+        description: ["lorem ipsulum"],
+    },
+    ]
