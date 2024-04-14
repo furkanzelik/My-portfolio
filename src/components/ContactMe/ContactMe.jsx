@@ -1,0 +1,29 @@
+import react from 'react'
+import './ContactMe.css'
+import ContactInfoCard from "./ContactInfoCard/ContactInfoCard.jsx";
+import ContactForm from "./ContactForm/ContactForm.jsx";
+
+const ContactMe = () => {
+    return(
+        <section className='contact-container'>
+           <h5>Contact Me</h5>
+            <div className='contact-content'>
+                <div style={{flex: 1}}>
+                <ContactInfoCard
+                    contactIcon='./assets/images/html.png' // email icon
+                text='furkanzelik@gmail.com'
+                />
+                <ContactInfoCard
+                    contactIcon='./assets/images/html.png' // github icon
+                text='https://github.com/furkanzelik'
+                />
+                </div>
+                <ContactForm
+                />
+                <div style={{flex: 1}}></div>
+            </div>
+        </section>
+    )
+}
+
+export default ContactMe
