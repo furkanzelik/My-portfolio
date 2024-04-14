@@ -47,6 +47,10 @@
 .skills-info {
     flex: 1;
 }
+.header {
+    font-size: x-large;
+    margin-bottom: 20px;
+}
 
 @media (max-width: 1025px) {
 

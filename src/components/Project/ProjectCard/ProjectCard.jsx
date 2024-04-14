@@ -12,6 +12,7 @@ const ProjectCard = ({ details }) => {
                     <li key={index}>{item}</li>
                 ))}
             </ul>
+            <img className='project-img' src={details.img} alt="project images" />
         </div>
     );
 };

@@ -3,6 +3,7 @@ import './Skills.css'
 import {SKILLS} from "../../utils/data.js";
 import SkillCard from "./SkillCard/SkillCard.jsx";
 import SkillsInfoCard from "./SkillsInfoCard/SkillsInfoCard.jsx";
+
 const Skills = () => {
 
     const [selectedSkill, setSelectedSkill] = useState(SKILLS[0]);
@@ -13,7 +14,7 @@ const Skills = () => {
 
     return (
         <section className='skill-container' >
-            <h5> Technical Proficiency</h5>
+            <h5 className='header'> Technical Proficiency</h5>
             <div className='skills-content' >
                 <div className='skills' >
                     {SKILLS.map((item) =>(

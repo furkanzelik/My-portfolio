@@ -1,7 +1,9 @@
+
+
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "frontend icon",
+        icon: "./src/assets/images/brush.png",
         skills: [
             {skill: "HTML5", percentage: "90%"},
             {skill: "CCS", percentage: "80%"},
@@ -12,7 +14,7 @@ export const SKILLS = [
 
     {
         title: "Backend",
-        icon: "backend icon",
+        icon: "./src/assets/images/backend.png",
         skills: [
             {skill: "Node.js", percentage: "70%"},
             {skill: "Express.js", percentage: "70%"},
@@ -22,7 +24,7 @@ export const SKILLS = [
     },
     {
         title: "AI Development",
-        icon: "AI icon",
+        icon: "./src/assets/images/Ai-icon3.png",
         skills: [
             {skill: "LLM", percentage: "70%"},
             {skill: "Prompt Engineering", percentage: "70%"},
@@ -33,7 +35,7 @@ export const SKILLS = [
 
     {
         title: "Games & development",
-        icon: "Game icon",
+        icon: "./src/assets/images/game-icon.png",
         skills: [
             {skill: "Unity", percentage: "60%"},
             {skill: "C#", percentage: "60%"},
@@ -45,7 +47,7 @@ export const SKILLS = [
 
     {
         title: "Tools",
-        icon: "Tools icon",
+        icon: "./src/assets/images/tools.png",
         skills: [
             {skill: "Git & Github", percentage: "90%"},
             {skill: "Visual Studio", percentage: "70%"},
@@ -56,7 +58,7 @@ export const SKILLS = [
 
     {
         title: "Soft Skills",
-        icon: "skills icon",
+        icon: "./src/assets/images/soft-skill.png",
         skills: [
             {skill: "Problem solving", percentage: "80%"},
             {skill: "Time management", percentage: "70%"},
@@ -70,32 +72,42 @@ export const PROJECTS = [
 
 
         {
-        title: "Project1",
-        date: "school year",
-        description: ["lorem ipsulum"],
+        title: "Goose Party",
+        date: "School Project",
+        description: ["This is a game that my team and I created for a school assignment. " +
+        "We were given the theme of Kralingse Plas, and based on that, we made a mini-party game with 5" +
+        " different games in it. "],
+            img: " ./src/assets/images/ganzenparty.png "
         },
 
             {
-        title: "Project2",
-        date: "school year",
-        description: ["lorem ipsulum"],
+        title: "Fullstack Website",
+        date: "Side Project",
+        description: ["I've developed a full-stack website using the MERN stack. " +
+        "I crafted the API from scratch and seamlessly integrated it with the frontend. " +
+        "By selecting the Age Of Empires theme, I added a personal touch to the project."],
+                img: " ./src/assets/images/aoe.png "
             },
+
 
     {
         title: "Project3",
         date: "school year",
         description: ["lorem ipsulum"],
+        img: " ./src/assets/images/ganzenparty.png "
     },
 
     {
         title: "Project4",
         date: "school year",
         description: ["lorem ipsulum"],
+        img: " ./src/assets/images/ganzenparty.png "
     },
 
     {
         title: "Project5",
         date: "school year",
         description: ["lorem ipsulum"],
+        img: " ./src/assets/images/ganzenparty.png "
     },
     ]

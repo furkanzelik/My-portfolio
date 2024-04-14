@@ -40,3 +40,9 @@
     left: -1.3rem;
     top: 0.35rem;
 }
+
+.project-img {
+    width: 28rem;
+    height: 16rem;
+    margin-left: 10%;
+}
