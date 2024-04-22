@@ -91,23 +91,11 @@ export const PROJECTS = [
 
 
     {
-        title: "Project3",
-        date: "school year",
-        description: ["lorem ipsulum"],
-        img: " ./src/assets/images/ganzenparty.png "
+        title: "Rottertouille",
+        date: "School Project ",
+        description: ["Rottertouille is a Mobile application made for people living in Rotterdam with a low income so they can cook cheap meals. " +
+        "This app is made with React Native and in my first Mobile Application experience."],
+        img: " ./src/assets/images/rottertouille.png "
     },
 
-    {
-        title: "Project4",
-        date: "school year",
-        description: ["lorem ipsulum"],
-        img: " ./src/assets/images/ganzenparty.png "
-    },
-
-    {
-        title: "Project5",
-        date: "school year",
-        description: ["lorem ipsulum"],
-        img: " ./src/assets/images/ganzenparty.png "
-    },
     ]

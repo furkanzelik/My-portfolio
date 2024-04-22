@@ -4,3 +4,16 @@
     background: linear-gradient(90deg, #3D3072 0%, #423477 100%);
     padding: 1rem;
 }
+
+.footer a {
+    text-decoration: none;
+    color: cornflowerblue;
+}
+
+.footer a:hover {
+    color: #ffffff;
+}
+
+.Instagram{
+    margin-top: 15px;
+}
