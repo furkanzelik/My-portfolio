@@ -1,5 +1,6 @@
 import React from "react";
 import './Hero.css'
+import pixeledme from '../../../src/assets/images/pixeled_me.jpg'
 
 const Hero = () => {
     return(
@@ -12,7 +13,7 @@ const Hero = () => {
             <div className='hero-img' >
                 <div >
 
-                    <img src={"../../src/assets/images/pixeled_me.jpg"} alt="myself"/>
+                    <img src={pixeledme} alt="myself"/>
                 </div>
 
                 <div>
