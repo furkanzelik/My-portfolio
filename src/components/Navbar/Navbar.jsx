@@ -8,7 +8,7 @@ function Navbar() {
         <>
         <nav className='nav-wrapper' >
             <div className='nav-content' >
-    <img className='logo' src='../../../public/logo.png' alt='logo'/>
+    <img className='logo' src={'../../../public/logo.png'} alt='logo'/>
 
                 <ul>
                     <li>
