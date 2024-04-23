@@ -5,6 +5,8 @@ import game from '../assets/images/game-icon.png';
 import tools from '../assets/images/tools.png';
 import softskills from '../assets/images/soft-skill.png';
 import ganzenParty from  '../assets/images/ganzenparty.png';
+import fullstack from '../assets/images/aoe.png';
+import rottertouille from '../assets/images/rottertouille.png';
 
 export const SKILLS = [
     {
@@ -92,7 +94,7 @@ export const PROJECTS = [
         description: ["I've developed a full-stack website using the MERN stack. " +
         "I crafted the API from scratch and seamlessly integrated it with the frontend. " +
         "By selecting the Age Of Empires theme, I added a personal touch to the project."],
-                img: " ./My-portfolio/src/assets/images/aoe.png "
+                img: fullstack
             },
 
 
@@ -101,7 +103,7 @@ export const PROJECTS = [
         date: "School Project ",
         description: ["Rottertouille is a Mobile application made for people living in Rotterdam with a low income so they can cook cheap meals. " +
         "This app is made with React Native and in my first Mobile Application experience."],
-        img: " ./src/assets/images/rottertouille.png "
+        img: fullstack
     },
 
     ]

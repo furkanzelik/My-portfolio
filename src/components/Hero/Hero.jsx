@@ -1,6 +1,11 @@
 import React from "react";
 import './Hero.css'
 import pixeledme from '../../../src/assets/images/pixeled_me.jpg'
+import iconReact from '../../../src/assets/react.svg';
+import iconHTML from '../../../src/assets/images/html.png';
+import iconJS from '../../../src/assets/images/javascript-1.svg';
+import iconSQL from '../../../src/assets/images/sql.png';
+import iconUnity from '../../../src/assets/images/unity.png';
 
 const Hero = () => {
     return(
@@ -18,19 +23,19 @@ const Hero = () => {
 
                 <div>
                     <div className='tech-icon'>
-                        <img src='../../src/assets/react.svg' alt='react'/>
+                        <img src={iconReact} alt='react'/>
                     </div>
                     <div className='tech-icon'>
-                        <img src="../../src/assets/images/html.png"/>
+                        <img src={iconHTML}/>
                     </div>
                     <div className='tech-icon'>
-                        <img src="../../src/assets/images/javascript-1.svg"/>
+                        <img src={iconJS}/>
                     </div>
                     <div className='tech-icon'>
-                        <img src="../../src/assets/images/sql.png"/>
+                        <img src={iconSQL}/>
                     </div>
                     <div className='tech-icon '>
-                        <img src="../../src/assets/images/unity.png"/>
+                        <img src={iconUnity}/>
                     </div>
                 </div>
 
