@@ -1,9 +1,15 @@
-
+import brush from '../assets/images/brush.png';
+import backend from '../assets/images/backend.png';
+import ai from '../assets/images/Ai-icon3.png';
+import game from '../assets/images/game-icon.png';
+import tools from '../assets/images/tools.png';
+import softskills from '../assets/images/soft-skill.png';
+import ganzenParty from  '../assets/images/ganzenparty.png';
 
 export const SKILLS = [
     {
         title: "Frontend",
-        icon: "./src/assets/images/brush.png",
+        icon: brush,
         skills: [
             {skill: "HTML5", percentage: "90%"},
             {skill: "CCS", percentage: "80%"},
@@ -14,7 +20,7 @@ export const SKILLS = [
 
     {
         title: "Backend",
-        icon: "./src/assets/images/backend.png",
+        icon: backend,
         skills: [
             {skill: "Node.js", percentage: "70%"},
             {skill: "Express.js", percentage: "70%"},
@@ -24,7 +30,7 @@ export const SKILLS = [
     },
     {
         title: "AI Development",
-        icon: "./src/assets/images/Ai-icon3.png",
+        icon: ai,
         skills: [
             {skill: "LLM", percentage: "70%"},
             {skill: "Prompt Engineering", percentage: "70%"},
@@ -35,7 +41,7 @@ export const SKILLS = [
 
     {
         title: "Games & development",
-        icon: "./src/assets/images/game-icon.png",
+        icon: game,
         skills: [
             {skill: "Unity", percentage: "60%"},
             {skill: "C#", percentage: "60%"},
@@ -47,7 +53,7 @@ export const SKILLS = [
 
     {
         title: "Tools",
-        icon: "./src/assets/images/tools.png",
+        icon: tools,
         skills: [
             {skill: "Git & Github", percentage: "90%"},
             {skill: "Visual Studio", percentage: "70%"},
@@ -58,7 +64,7 @@ export const SKILLS = [
 
     {
         title: "Soft Skills",
-        icon: "./src/assets/images/soft-skill.png",
+        icon: softskills,
         skills: [
             {skill: "Problem solving", percentage: "80%"},
             {skill: "Time management", percentage: "70%"},
@@ -77,7 +83,7 @@ export const PROJECTS = [
         description: ["This is a game that my team and I created for a school assignment. " +
         "We were given the theme of Kralingse Plas, and based on that, we made a mini-party game with 5" +
         " different games in it. "],
-            img: " ./src/assets/images/ganzenparty.png "
+            img: ganzenParty
         },
 
             {
