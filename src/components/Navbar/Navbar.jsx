@@ -1,5 +1,4 @@
 import React from "react";
-import myself from '../../assets/images/pixeled_me.jpg'
 import './Navbar.css'
 
 function Navbar() {

@@ -7,8 +7,8 @@ export const SKILLS = [
         skills: [
             {skill: "HTML5", percentage: "90%"},
             {skill: "CCS", percentage: "80%"},
-            {skill: "JavaScript", percentage: "70%"},
-            {skill: "React.js", percentage: "80%"},
+            {skill: "JavaScript", percentage: "80%"},
+            {skill: "React.js", percentage: "70%"},
         ],
     },
 
@@ -86,7 +86,7 @@ export const PROJECTS = [
         description: ["I've developed a full-stack website using the MERN stack. " +
         "I crafted the API from scratch and seamlessly integrated it with the frontend. " +
         "By selecting the Age Of Empires theme, I added a personal touch to the project."],
-                img: " ./src/assets/images/aoe.png "
+                img: " ./My-portfolio/src/assets/images/aoe.png "
             },
 
 
