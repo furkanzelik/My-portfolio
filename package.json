@@ -1,9 +1,9 @@
 {
-  "name": "my-portfolio",
+  "name": "My-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-//  "homepage": "https://furkanzelik.github.io/My-portfolio",
+  "homepage": "https://furkanzelik.github.io/My-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d docs",
