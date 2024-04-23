@@ -103,7 +103,7 @@ export const PROJECTS = [
         date: "School Project ",
         description: ["Rottertouille is a Mobile application made for people living in Rotterdam with a low income so they can cook cheap meals. " +
         "This app is made with React Native and in my first Mobile Application experience."],
-        img: fullstack
+        img: rottertouille
     },
 
     ]
