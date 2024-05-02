@@ -46,3 +46,34 @@
     height: 16rem;
     margin-left: 10%;
 }
+
+
+
+@media only screen and (max-width: 768px) {
+    .work-experience-card {
+        width: 90%;
+        margin: 0 auto;
+        padding: 1rem;
+    }
+
+    .project-img {
+        width: 100%;
+        height: auto;
+        margin-left: 0;
+    }
+
+    .work-experience-card h6 {
+        font-size: 0.9rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .work-duration {
+        font-size: 0.7rem;
+        margin-bottom: 0.5rem;
+    }
+
+    .work-experience-card ul li {
+        font-size: 0.8rem;
+        margin-bottom: 0.8rem;
+    }
+}

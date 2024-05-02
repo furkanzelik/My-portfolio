@@ -8,3 +8,14 @@
     font-weight: 600;
     margin-bottom: 3rem;
 }
+
+@media only screen and (max-width: 768px) {
+    .experience-container {
+        margin: 2rem 0;
+    }
+
+    .experience-container h5 {
+        font-size: 1.2rem;
+        margin-bottom: 2rem;
+    }
+}
