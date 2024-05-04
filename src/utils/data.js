@@ -14,7 +14,7 @@ export const SKILLS = [
         icon: brush,
         skills: [
             {skill: "HTML5", percentage: "90%"},
-            {skill: "CCS", percentage: "80%"},
+            {skill: "CSS", percentage: "80%"},
             {skill: "JavaScript", percentage: "80%"},
             {skill: "React.js", percentage: "70%"},
         ],
